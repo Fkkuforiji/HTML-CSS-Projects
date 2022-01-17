@@ -1,0 +1,28 @@
+.SectionHead {
+text-decoration: underline;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+.jobheader{
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: .85rem;
+}
+
+.company {
+ font-style: italic;
+ font-size: .85rem;
+}
+
+.center {
+ text-align: center;
+}
+
+.city{
+ float: right;
+}
+
+.date{
+ float: right;
+}
