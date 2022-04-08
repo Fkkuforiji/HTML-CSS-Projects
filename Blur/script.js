@@ -17,6 +17,6 @@ function blurring (){
 // backticks " ` " are needed for template literals
 // innerText refers to the HTML content inside the HTML element of the constant before the .innerText
   loadText.innerText = `${load}%`
-  loadText.style.opacity 
+  loadText.style.opacity m k ;.l
   
 }
