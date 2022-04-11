@@ -19,11 +19,8 @@ function blurring() {
   //load is referring to the let load above
   loadText.innerText = `${load}%`;
   loadText.style.opacity = scale(load, 0, 100, 1, 0);
-<<<<<<< HEAD
-  //loadText.style.opacity = scale(100 - load / 100); --can also do opacity this way
 
-=======
->>>>>>> cb62423130dd2a750d1934b6c39fe583795f308a
+  //loadText.style.opacity = scale(100 - load / 100); --can also do opacity this way
   //blur is referring to the blur attribute in the bg css section
   bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
 }
